@@ -1,0 +1,49 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color: #007BFF;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #FF5733;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: rgb(50, 50, 50);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.boton {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+}
+
+.boton:hover {
+  background-color: #005f73;
+}
